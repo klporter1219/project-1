@@ -1,0 +1,37 @@
+.card {
+  width: 68px;
+  height: 118px;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+  padding: 16px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.winner {
+  box-shadow: -5px 0px green;
+}
+
+.loser {
+  box-shadow: -5px 0px red;
+}
+
+.spades::after{
+  content:"\2660";
+}
+
+.hearts::after{
+  content:"\2665";
+  color:red;
+}
+
+.diamonds::after{
+  content:"\2666";
+  color:red;
+}
+
+.clubs::after{
+  content:"\2663";
+}
